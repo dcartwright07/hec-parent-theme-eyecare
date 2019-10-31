@@ -2,32 +2,32 @@
 	/*
 	 * This file includes an Element to Kind Composer for Section Services.
 	 */
-	 
-	
- 	
+
+
+
 	if(!function_exists('wc_our_services') && function_exists('wc_required_modules')):
 	add_action('init', 'wc_our_services', 99 );
-	
+
 	function wc_our_services() {
-	 
-		if(function_exists('kc_add_map')) { 
+
+		if(function_exists('kc_add_map')) {
 			//Getting Services Groups Options to use below.
 			$taxonomies = array(esc_html__('services_group', 'eyecare'));
 			$args = array('orderby'=>'name','order'=>'ASC','hide_empty'=>true);
-			
+
 			$services_group = get_terms($taxonomies, $args);
-			
+
 			$services_tax['default'] = esc_html__('All Groups', 'eyecare');
 
 			foreach($services_group as $group){
 				$group_slug = $group->slug;
 				$group_name = $group->name;
-				
+
 				$services_tax[$group_slug] = $group_name;
 			}
-			
+
 			//taxanomy Choices Ends.
-			
+
 			kc_add_map(
 				array(
 					'wc_kc_our_services' => array(
@@ -86,16 +86,16 @@
 								'description' => esc_html__('Short Description of Service.', 'eyecare')
 							)
 						)// Param ends
-					),  // End element 
-	 
+					),  // End element
+
 				)
 			); // End add map
-		
+
 		} // End if
 	}
 	endif; //Function exist/not
-	
-	
+
+
 	/*
 	 * Generating Short Code
 	 *
@@ -103,13 +103,13 @@
 	 *
 	 * Requires Composer plugin activated
 	 */
-	
+
 	if(!function_exists('wc_kc_our_services_shortcode') && function_exists('wc_shortcode')):
-	
+
 	//adds shortcode with callback
 	wc_shortcode('wc_kc_our_services', 'wc_kc_our_services_shortcode');
- 	
-	
+
+
 	function wc_kc_our_services_shortcode($atts){
 		extract(wc_html_decode(shortcode_atts(array(
 			//Parameters of Shortcode
@@ -120,89 +120,87 @@
 			"wc_ourservices_display_columns"	=> "",
 			"_id" 								=> "",
 		), $atts)));
-		
+
 		//Setting Taxanomy if selected
 		$display_tax = ''; //Empty array
-		if(esc_attr($wc_ourservices_display_group) != 'default') { 
-			// $display_tax['taxonomy'] = esc_html__('services_group', 'eyecare');
-			// $display_tax['field'] = 'slug';
-			// $display_tax['terms'] = esc_attr($wc_ourservices_display_group);
+		if( esc_attr( $wc_ourservices_display_group ) != 'default' ) {
 
 			$display_tax = array(
 				'taxonomy'	=> esc_html__( 'services_group', 'eyecare' ),
 				'field'		=> 'slug',
 				'terms'		=> esc_attr( $wc_ourservices_display_group )
 			);
+
 		}
-		
+
 		//Number of Columns to Display
-		if(!empty($wc_ourservices_display_columns) 				|| 
+		if(!empty($wc_ourservices_display_columns) 				||
 			$wc_ourservices_display_columns == "columns_two" 	||
 			$wc_ourservices_display_columns == "columns_three"	||
-			$wc_ourservices_display_columns == "columns_four") { 
+			$wc_ourservices_display_columns == "columns_four") {
 			$columns_number = $wc_ourservices_display_columns;
-		} else { 
+		} else {
 			$columns_number = "columns_three";
 		}
-		
+
 		//Setting posts to Display
-		if(is_numeric($wc_ourservices_max_posts)) { 
+		if(is_numeric($wc_ourservices_max_posts)) {
 			$posts_to_display = esc_attr($wc_ourservices_max_posts);
 		} else {
-			$posts_to_display = -1;	
+			$posts_to_display = -1;
 		}
-		
+
 		//Show Grid or Carousel
-		if($wc_ourservices_display_type == 'show_grid') { 
-			if($columns_number == "columns_two") { 
+		if($wc_ourservices_display_type == 'show_grid') {
+			if($columns_number == "columns_two") {
 				$classes = 'small-12 medium-6 columns service';
-			} elseif($columns_number == "columns_three") { 
+			} elseif($columns_number == "columns_three") {
 				$classes = 'small-12 large-4 medium-6 columns service';
-			} elseif($columns_number == "columns_four") { 
+			} elseif($columns_number == "columns_four") {
 				$classes = 'small-12 large-3 medium-6 columns service';
-			} else { 
+			} else {
 				$classes = 'small-12 large-4 medium-6 columns service';
 			}
-			
+
 			$parent_class = 'services row';
-		} else { 
+		} else {
 			$classes = 'service';
 			$parent_class = 'services-blocks services-carousel dots-style';
 		}
-		
+
 		$post_args = array(
 						'post_type' => esc_html__('service', 'eyecare'),
 						'order' => 'DESC',
 						'posts_per_page' => $posts_to_display,
 						'tax_query' => array($display_tax),
 					);
-					
+
 		$services_query = new WP_Query($post_args);
-		
+
 		// The Loop
 		if ($services_query->have_posts() ) {
 			$output = '<div id="'.esc_attr($_id).'" class="'.esc_attr($parent_class).'">';
 			while ($services_query->have_posts() ) {
 				$services_query->the_post();
 				global $post;
-				
+
 				$end_class = '';
 				if($services_query->current_post +1 == $services_query->post_count) {
     				// this is the last post
 					$end_class = " end";
 				}
 
-				
+
 				$output .= '<div class="'.esc_attr($classes).esc_attr($end_class).'">';
 				$output .= '<div class="serivce-block">';
-				
+
 				if(has_post_thumbnail()) {
 				$output .= '<div class="service-thumb">';
 				$output .= '<a href="'.esc_url(get_the_permalink()).'">';
 				$output .= get_the_post_thumbnail($services_query->ID, 'wc-service-small-thumb');
 				$output .= '</a></div>';
 				}
-				
+
 				$output .= '<div class="service-info">';
 				$output .= '<h4><a href="'.esc_url(get_the_permalink()).'">'.esc_html(get_the_title()).'</a></h4>';
 				if($wc_ourservices_show_excerpt == 'yes') {
@@ -210,7 +208,7 @@
 				$output .= '<a href="'.esc_url(get_the_permalink()).'" class="service-read">'.esc_html__('Read More', 'eyecare').'&raquo;</a>';
 				}
 				$output .= '</div>';
-				
+
 				$output .= '</div><!-- service block /-->
 							</div><!-- service Ends -->';
 			}
@@ -220,9 +218,9 @@
 		} else {
 			// no posts found
 		}
-	    
+
 		//return output for work!
 		return $output;
 	}//End of short code callback function
 	endif; //function exists
-		
+
