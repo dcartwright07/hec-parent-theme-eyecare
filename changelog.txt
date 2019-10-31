@@ -1,0 +1,31 @@
+21, June 2018 V2.1
+-------------------------
+- WooCommerce Update Integration
+- WooCommerce Product Thumbnails Fix
+- Cart Button in Header Navigation
+- Cart Reveal Box in Header Navigation
+
+15, May 2018
+-------------------------
+- Tablet Display issues Fixings
+- WooCommerce Update Integrations
+- After & Before Module integration
+
+10, January 2018
+-------------------------
+- Navigation items float fix default issue of foundation.
+- Arabic Version implementation
+- RTL support included
+
+29 July, 2017 1.2
+-----------------------
+WooCommerce Product lightbox
+
+29 June, 2017 V 1.1
+----------------
+- Updated WooCommerce Files to Latest WooCommerce support
+
+23 May, 2017
+----------------
+- Fixed Tablet Issue
+- Contact Form issue Resolved JetPack

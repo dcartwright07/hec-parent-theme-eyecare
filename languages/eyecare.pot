@@ -1,0 +1,3553 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Eye Care 1.0\n"
+"POT-Creation-Date: 2018-01-12 01:28+0500\n"
+"PO-Revision-Date: 2017-01-26 08:53+0500\n"
+"Last-Translator: \n"
+"Language-Team: Webful Creations Vision <ateeq@webfulcreations.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_attr__;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "404!"
+msgstr ""
+
+#: 404.php:10
+msgid "Page is not found!"
+msgstr ""
+
+#: 404.php:19
+msgid "Enter your search term here so we can help you..."
+msgstr ""
+
+#: 404.php:21
+msgid "Search"
+msgstr ""
+
+#: comments.php:20 comments.php:63
+msgid "Comment"
+msgstr ""
+
+#: comments.php:20
+msgid "Comment(s)"
+msgstr ""
+
+#: comments.php:27
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:48 comments.php:52
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:50
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:51
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:57
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:62
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:67 comments.php:68
+msgid "Name"
+msgstr ""
+
+#: comments.php:71 comments.php:72 lib/admin/customizer/footer-bottom.php:207
+#: lib/admin/customizer/top-bar.php:353
+#: lib/admin/widgets/contact_widget.php:126
+msgid "Email"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:384
+#: lib/admin/class-tgm-plugin-activation.php:834
+#: lib/admin/class-tgm-plugin-activation.php:2540
+#: lib/admin/class-tgm-plugin-activation.php:3586
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:385
+#: lib/admin/class-tgm-plugin-activation.php:3166
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:386
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:388
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:390
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:394
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:514
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:515
+msgid "Update Required"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:632
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:941
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:941
+#: lib/admin/class-tgm-plugin-activation.php:944
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:944
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:1989
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2280
+msgid "Required"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2283
+msgid "Recommended"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2299
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2302
+msgid "External Source"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2305
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2322
+msgid "Not Installed"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2326
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2328
+msgid "Active"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2334
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2337
+msgid "Requires Update"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2340
+msgid "Update recommended"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2497
+msgid "Installed version:"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2505
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2517
+msgid "Available version:"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2540
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2554
+msgid "Plugin"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2555
+msgid "Source"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2556
+msgid "Type"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2560
+msgid "Version"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2561
+msgid "Status"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2610
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2615
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2621
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2691
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2724
+msgid "Install"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2730
+msgid "Update"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2733
+msgid "Activate"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2764
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2766
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2807
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2809
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2915
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:2941
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3165
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3504
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3507
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3513
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3515
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3515
+#: lib/admin/class-tgm-plugin-activation.php:3523
+msgid "Show Details"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3515
+#: lib/admin/class-tgm-plugin-activation.php:3523
+msgid "Hide Details"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3516
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3518
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3521
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3524
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/admin/class-tgm-plugin-activation.php:3526
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:12
+#: lib/admin/custom-post-types/faqs.php:14
+msgid "Faqs"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:13
+#: lib/admin/custom-post-types/faqs.php:15
+msgid "Faq"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:16
+#: lib/admin/custom-post-types/optometerists.php:13
+#: lib/admin/custom-post-types/services.php:13
+#: lib/admin/custom-post-types/testimonials.php:16
+msgid "Add New"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:17
+msgid "Add New Faq"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:18
+msgid "New Faq"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:19
+msgid "Edit Faq"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:20
+msgid "View Faq"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:21
+msgid "All Faqs"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:22
+msgid "Search Faqs"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:23
+msgid "Parent Faqs:"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:24
+msgid "No Faqs found."
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:25
+msgid "No Faqs found in Trash."
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:30
+msgid "Faqs Section"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:36
+#: lib/admin/custom-post-types/faqs.php:46
+#: lib/admin/custom-post-types/faqs.php:75 lib/admin/pagebuilder/faqs.php:141
+#: lib/admin/pagebuilder/faqs.php:207
+msgid "faq"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:41
+#: lib/admin/custom-post-types/faqs.php:82
+#: lib/admin/custom-post-types/faqs.php:85 lib/admin/pagebuilder/faqs.php:14
+#: lib/admin/pagebuilder/faqs.php:117 lib/admin/pagebuilder/faqs.php:182
+#: lib/admin/pagebuilder/faqs.php:200
+msgid "faqs_group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:61
+#: lib/admin/custom-post-types/faqs.php:62
+#: lib/admin/custom-post-types/faqs.php:71
+msgid "Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:63
+msgid "Search Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:64
+msgid "All Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:65
+msgid "Parent Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:66
+msgid "Parent Faqs Group:"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:67
+msgid "Edit Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:68
+msgid "Update Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:69
+msgid "Add New Faqs Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/faqs.php:70
+msgid "New Faqs Group Name"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:9
+#: lib/admin/custom-post-types/optometerists.php:11
+#: lib/admin/customizer/services-post-type.php:52 single-service.php:58
+msgid "Optometrists"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:10
+#: lib/admin/custom-post-types/optometerists.php:12
+#: lib/admin/pagebuilder/brands-carousel.php:19
+#: lib/admin/pagebuilder/faqs.php:34 lib/admin/pagebuilder/gallery.php:19
+#: lib/admin/pagebuilder/highlight-banner.php:20
+#: lib/admin/pagebuilder/icon-box.php:20
+#: lib/admin/pagebuilder/optometrist-blog.php:19
+#: lib/admin/pagebuilder/our-services.php:37
+#: lib/admin/pagebuilder/our-staff.php:35
+#: lib/admin/pagebuilder/price-table.php:20
+#: lib/admin/pagebuilder/section-title.php:20
+#: lib/admin/pagebuilder/small-banner.php:20
+#: lib/admin/pagebuilder/testimonials.php:35
+msgid "Optometrist"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:14
+msgid "Add New Optometrist"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:15
+msgid "New Optometrist"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:16
+msgid "Edit Optometrist"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:17
+msgid "View Optometrist"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:18
+msgid "All Optometrists"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:19
+msgid "Search Optometrists"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:20
+msgid "Parent Optometrists:"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:21
+msgid "No Optometrists found."
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:22
+msgid "No Optometrists found in Trash."
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:27
+msgid "Optometrists Section"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:33
+#: lib/admin/custom-post-types/optometerists.php:42
+#: lib/admin/custom-post-types/optometerists.php:72
+#: lib/admin/metaboxes/doctor-fields.php:27
+#: lib/admin/pagebuilder/our-staff.php:138
+#: lib/admin/pagebuilder/our-staff.php:145 single-service.php:79
+msgid "optometrist"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:38
+#: lib/admin/custom-post-types/optometerists.php:78
+#: lib/admin/custom-post-types/optometerists.php:81
+#: lib/admin/pagebuilder/our-staff.php:13
+#: lib/admin/pagebuilder/our-staff.php:111
+msgid "optometrist_group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:58
+#: lib/admin/custom-post-types/optometerists.php:59
+#: lib/admin/custom-post-types/optometerists.php:68
+msgid "Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:60
+msgid "Search Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:61
+msgid "All Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:62
+msgid "Parent Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:63
+msgid "Parent Optometrists Group:"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:64
+msgid "Edit Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:65
+msgid "Update Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:66
+msgid "Add New Optometrists Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/optometerists.php:67
+msgid "New Optometrists Group Name"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:9
+#: lib/admin/custom-post-types/services.php:11
+msgid "Services"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:10
+#: lib/admin/custom-post-types/services.php:12
+msgid "Service"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:14
+msgid "Add New Service"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:15
+msgid "New Service"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:16
+msgid "Edit Service"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:17
+msgid "View Service"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:18
+msgid "All Services"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:19
+msgid "Search Services"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:20
+msgid "Parent Services:"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:21
+msgid "No Services found."
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:22
+msgid "No Services found in Trash."
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:27
+msgid "Services Section"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:38
+#: lib/admin/custom-post-types/services.php:78
+#: lib/admin/custom-post-types/services.php:80
+#: lib/admin/pagebuilder/our-services.php:15
+#: lib/admin/pagebuilder/our-services.php:127
+msgid "services_group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:43
+#: lib/admin/custom-post-types/services.php:72
+#: lib/admin/pagebuilder/our-services.php:168
+msgid "service"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:58
+#: lib/admin/custom-post-types/services.php:59
+#: lib/admin/custom-post-types/services.php:68
+msgid "Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:60
+msgid "Search Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:61
+msgid "All Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:62
+msgid "Parent Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:63
+msgid "Parent Services Group:"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:64
+msgid "Edit Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:65
+msgid "Update Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:66
+msgid "Add New Services Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/services.php:67
+msgid "New Services Group Name"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:12
+#: lib/admin/custom-post-types/testimonials.php:14
+#: lib/admin/pagebuilder/testimonials.php:32
+msgid "Testimonials"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:13
+#: lib/admin/custom-post-types/testimonials.php:15
+msgid "Testimonial"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:17
+msgid "Add New Testimonial"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:18
+msgid "New Testimonial"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:19
+msgid "Edit Testimonial"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:20
+msgid "View Testimonial"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:21
+msgid "All Testimonials"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:22
+msgid "Search Testimonials"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:23
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:24
+msgid "No Testimonials found."
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:25
+msgid "No Testimonials found in Trash."
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:30
+msgid "Testimonials Section"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:36
+#: lib/admin/custom-post-types/testimonials.php:46
+#: lib/admin/metaboxes/testimonial-fields.php:27
+#: lib/admin/pagebuilder/testimonials.php:131 single-optometrist.php:129
+msgid "testimonial"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:41
+#: lib/admin/custom-post-types/testimonials.php:85
+#: lib/admin/metaboxes/doctor-fields.php:93
+#: lib/admin/metaboxes/doctor-fields.php:101
+#: lib/admin/metaboxes/doctor-fields.php:116
+#: lib/admin/pagebuilder/testimonials.php:14
+#: lib/admin/pagebuilder/testimonials.php:118 single-optometrist.php:107
+msgid "testimonials_group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:61
+#: lib/admin/custom-post-types/testimonials.php:62
+#: lib/admin/custom-post-types/testimonials.php:71
+#: lib/admin/customizer/single-optometrist.php:62
+#: lib/admin/metaboxes/doctor-fields.php:98
+msgid "Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:63
+msgid "Search Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:64
+msgid "All Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:65
+msgid "Parent Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:66
+msgid "Parent Testimonials Group:"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:67
+msgid "Edit Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:68
+msgid "Update Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:69
+msgid "Add New Testimonials Group"
+msgstr ""
+
+#: lib/admin/custom-post-types/testimonials.php:70
+msgid "New Testimonials Group Name"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:5
+msgid "Blog Page"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:8 lib/admin/customizer/single-post.php:8
+msgid "Manage blog page section"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:22
+#: lib/admin/customizer/default-page.php:22
+#: lib/admin/customizer/services-post-type.php:22
+#: lib/admin/customizer/single-optometrist.php:22
+#: lib/admin/customizer/single-post.php:22
+#: lib/admin/customizer/wc-shop-page.php:22
+msgid "Select Sidebar Type:"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:26
+#: lib/admin/customizer/default-page.php:26
+#: lib/admin/customizer/services-post-type.php:26
+#: lib/admin/customizer/single-optometrist.php:26
+#: lib/admin/customizer/single-post.php:26
+#: lib/admin/customizer/wc-shop-page.php:26
+#: lib/admin/metaboxes/page-layout.php:267
+msgid "Left Sidebar"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:27
+#: lib/admin/customizer/default-page.php:27
+#: lib/admin/customizer/services-post-type.php:27
+#: lib/admin/customizer/single-optometrist.php:27
+#: lib/admin/customizer/single-post.php:27
+#: lib/admin/customizer/wc-shop-page.php:27
+#: lib/admin/metaboxes/page-layout.php:272
+msgid "Right Sidebar"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:28
+#: lib/admin/customizer/default-page.php:28
+#: lib/admin/customizer/services-post-type.php:28
+#: lib/admin/customizer/single-optometrist.php:28
+#: lib/admin/customizer/single-post.php:28
+#: lib/admin/customizer/wc-shop-page.php:28
+#: lib/admin/metaboxes/page-layout.php:277
+msgid "Disable Sidebar"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:44
+#: lib/admin/customizer/single-post.php:44
+msgid "Disable Meta Info"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:62
+msgid "Disable Read More Link"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:77
+msgid "Content Display:"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:81
+msgid "Full Content"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:82
+msgid "Excerpt"
+msgstr ""
+
+#: lib/admin/customizer/blog-page.php:98
+#: lib/admin/pagebuilder/optometrist-blog.php:67
+msgid "Excerpt Length"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:5
+msgid "Call To Action"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:8
+msgid "Manage Call to Action"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:23
+msgid "Enable Call To Action Box"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:54
+#: lib/admin/customizer/general-options.php:184
+#: lib/admin/customizer/general-options.php:257
+#: lib/admin/customizer/general-options.php:328
+#: lib/admin/customizer/single-optometrist.php:118
+#: lib/admin/customizer/title-section.php:82
+#: lib/admin/customizer/top-bar.php:82 lib/admin/metaboxes/page-layout.php:94
+#: lib/admin/metaboxes/page-layout.php:239
+#: lib/admin/metaboxes/page-layout.php:296
+#: lib/admin/metaboxes/page-layout.php:361
+#: lib/admin/metaboxes/page-layout.php:478
+#: lib/admin/metaboxes/page-layout.php:520
+msgid "Background Color"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:74
+#: lib/admin/metaboxes/page-layout.php:303
+msgid "Text/Button Color"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:94
+msgid "Text/Button Hover/Highlight Color"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:127
+msgid "Call to Action Side Image"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:128
+msgid "Recommended Size: 282x298."
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:139
+msgid "If you Have Any Questions Call Us On"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:146
+msgid "Left Side Content"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:147
+msgid "Wrap in span xxx-xx-xxx&lt;/span&gt; To highlight Text"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:163
+msgid "Right Side Button Text"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:164
+msgid "Appointment/Something"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:180
+msgid "Right Side Button Link"
+msgstr ""
+
+#: lib/admin/customizer/call-to-action.php:181
+msgid "http://yoursite.com/some-page/"
+msgstr ""
+
+#: lib/admin/customizer/default-page.php:5
+msgid "Page Default"
+msgstr ""
+
+#: lib/admin/customizer/default-page.php:8
+#: lib/admin/customizer/services-post-type.php:8
+msgid "Manage Default page"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:5
+msgid "Footer Bottom Box"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:8
+msgid "Footer Bottom Options"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:23
+msgid "Disable Footer Bottom Box"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:53
+msgid "Left Side Section"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:54
+#: lib/admin/customizer/footer-bottom.php:78
+msgid ""
+"For copyright info and Selective icons please scroll down after selection."
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:58
+#: lib/admin/customizer/footer-bottom.php:82
+#: lib/admin/metaboxes/page-layout.php:439
+#: lib/admin/metaboxes/page-layout.php:462
+msgid "Copyright Info"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:59
+#: lib/admin/customizer/footer-bottom.php:83
+msgid "Social Icons"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:60
+#: lib/admin/customizer/footer-bottom.php:84
+#: lib/admin/metaboxes/page-layout.php:444
+#: lib/admin/metaboxes/page-layout.php:467
+msgid "Footer Menu"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:77
+msgid "Right Side Section"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:113
+msgid "Bottom Background Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:132
+msgid "Footer Bottom Text/Link Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:151
+msgid "Footer Bottom Link Hover Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:174
+msgid "Webful Creations Vision"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:174
+#: template-parts/footer/footer-bottom/copyright-info.php:2
+msgid " All Rights Reserved."
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:180
+msgid "Copyright Information"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:202
+#: lib/admin/customizer/top-bar.php:348
+msgid "Select Icons To Display"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:203
+msgid "You can select icons here for Footer bottom type Icons."
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:205
+#: lib/admin/customizer/site-identity.php:24
+#: lib/admin/customizer/top-bar.php:351
+msgid "Business Phone"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:206
+#: lib/admin/customizer/top-bar.php:352
+msgid "Small Address"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:208
+#: lib/admin/customizer/top-bar.php:354
+msgid "Time Table"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:209
+#: lib/admin/customizer/top-bar.php:355
+msgid "Facebook"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:210
+#: lib/admin/customizer/top-bar.php:356
+msgid "Twitter"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:211
+#: lib/admin/customizer/top-bar.php:357
+msgid "LinkedIn"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:212
+#: lib/admin/customizer/top-bar.php:358
+msgid "Instagram"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:213
+#: lib/admin/customizer/top-bar.php:359
+msgid "Google Plus"
+msgstr ""
+
+#: lib/admin/customizer/footer-bottom.php:214
+#: lib/admin/customizer/top-bar.php:360
+msgid "YouTube"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:5
+#: lib/admin/customizer/footer-information-boxes.php:8
+msgid "Footer Information Boxes"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:23
+msgid "Enable Footer Information Boxes"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:53
+msgid "Boxes To display"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:57
+msgid "Two Boxes"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:58
+msgid "Three Boxes"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:91
+msgid "First Box Icon Class"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:92
+#: lib/admin/customizer/footer-information-boxes.php:159
+#: lib/admin/customizer/footer-information-boxes.php:226
+msgid ""
+"You can find icon class from fontawesome website like fa-phone or fa-user"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:100
+#: template-parts/footer/footer-information-boxes.php:51
+msgid "Have a question? call us now"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:107
+msgid "First Box Title"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:108
+msgid "First Box Title For Example: Have a question? call us now"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:123
+msgid "First Box Description"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:124
+msgid "First box description"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:158
+msgid "Second Box Icon Class"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:167
+#: template-parts/footer/footer-information-boxes.php:77
+msgid "We are open on"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:174
+#: lib/admin/customizer/footer-information-boxes.php:175
+msgid "Second Box Title"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:183
+#: template-parts/footer/footer-information-boxes.php:84
+msgid "Mon - Fri: 08:00 - 17:00"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:190
+msgid "Second Box Description"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:191
+msgid "Second box description"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:225
+msgid "Third Box Icon Class"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:234
+#: template-parts/footer/footer-information-boxes.php:103
+msgid "Drop Us an Email"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:241
+#: lib/admin/customizer/footer-information-boxes.php:242
+msgid "Third Box Title"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:250
+#: template-parts/footer/footer-information-boxes.php:110
+msgid "yours@webfulcreations.com"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:257
+msgid "Third Box Description"
+msgstr ""
+
+#: lib/admin/customizer/footer-information-boxes.php:258
+msgid "Third box description"
+msgstr ""
+
+#: lib/admin/customizer/footer-options.php:4
+msgid "Footer Settings Styles/Layout"
+msgstr ""
+
+#: lib/admin/customizer/footer-options.php:5
+msgid "Manage Footer Settings Styles and Layouts"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:5
+msgid "Footer Top"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:8
+msgid "Footer Top Options"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:23
+msgid "Disable Footer Top Box"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:53
+msgid "Widgets In Footer Top"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:57
+#: lib/admin/metaboxes/page-layout.php:375
+msgid "Two Widgets"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:58
+#: lib/admin/metaboxes/page-layout.php:380
+msgid "Three Widgets"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:59
+#: lib/admin/metaboxes/page-layout.php:385
+msgid "Four Widgets"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:88
+msgid "Footer Background Image"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:89
+msgid "Recommended Size: 1920x500"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:108
+msgid "Top Background Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:127
+msgid "Footer Top Heading Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:146
+msgid "Footer Top Text Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:165
+msgid "Footer Top Link Color"
+msgstr ""
+
+#: lib/admin/customizer/footer-top.php:184
+msgid "Footer Top Link Hover Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:10
+msgid "General Options"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:11
+msgid "Set boxes layout, preloader, or scroll up"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:22
+msgid "General Colors"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:25
+msgid "Manage Site Colors"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:37
+msgid ""
+"This Section controls colors only for content section and sidebars, for "
+"Header, Title section, Call to action, footer top and bottom please go to "
+"their sections."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:54
+msgid "Body Background Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:55
+msgid ""
+"For Header, Footer, Title Section, Call to action areas please go to their "
+"sections."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:73
+msgid "Headings Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:74
+msgid ""
+"h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 span , h2 "
+"span, h3 span, h4 span, h5 span, h6 span color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:92
+msgid "Text Tags Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:93
+msgid "span, label, strong, p, ul, li, ol, input and other body tags color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:111
+#: lib/admin/customizer/top-bar.php:118 lib/admin/metaboxes/page-layout.php:108
+#: lib/admin/metaboxes/page-layout.php:405
+msgid "Links Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:112
+msgid "Used For links."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:130
+#: lib/admin/customizer/top-bar.php:136 lib/admin/metaboxes/page-layout.php:115
+msgid "Links Hover Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:131
+msgid "Used For links hover."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:146
+#: lib/admin/metaboxes/page-layout.php:501
+msgid "Boxed Layout"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:149
+#: lib/admin/customizer/top-bar.php:171
+msgid "Manage Boxed Layout"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:166
+msgid "Enable boxed layout"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:185
+#: lib/admin/customizer/general-options.php:204
+msgid ""
+"If Bg Color and Image both Exist, Bg Color would be used with less opacity. "
+"A little transparent."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:203
+msgid "Boxed Background Image"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:219
+msgid "Page Preloader"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:222
+msgid "Manage Page Preloader"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:239
+msgid "Disable Preloader"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:258
+msgid "Background color hiding page while loading."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:276
+msgid "Preloader Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:277
+msgid "Preloader Color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:290
+msgid "Page Scrollup"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:293
+msgid "Manage Page Scroll Up"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:310
+msgid "Disable Scroll Up"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:329
+msgid "Background Color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:347
+msgid "Arrow Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:348
+msgid "Arrow Color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:366
+msgid "Hover Background Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:367
+msgid "Hover Background Color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:385
+msgid "Hover Arrow Color"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:386
+msgid "Hover Arrow Color."
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:400
+msgid "Right To Left Direction"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:403
+msgid "Manage Page Directions"
+msgstr ""
+
+#: lib/admin/customizer/general-options.php:420
+msgid "Enable Right to Left Support"
+msgstr ""
+
+#: lib/admin/customizer/header.php:10
+msgid "Header"
+msgstr ""
+
+#: lib/admin/customizer/header.php:11
+msgid "Manage display for header"
+msgstr ""
+
+#: lib/admin/customizer/header.php:23
+msgid "Header Type"
+msgstr ""
+
+#: lib/admin/customizer/header.php:26
+msgid "Manage Header Type"
+msgstr ""
+
+#: lib/admin/customizer/header.php:40 lib/admin/metaboxes/page-layout.php:134
+msgid "Select Header Type:"
+msgstr ""
+
+#: lib/admin/customizer/header.php:44
+msgid "Type 1: (Left Side Logo, Right side Navigation)"
+msgstr ""
+
+#: lib/admin/customizer/header.php:45
+msgid "Type 2: (Left Side Logo, Right Side Text Field, Full width Navigation)"
+msgstr ""
+
+#: lib/admin/customizer/header.php:46
+msgid ""
+"Type 3: (Left Right information boxes, Center Logo, Centered Navigation)"
+msgstr ""
+
+#: lib/admin/customizer/header.php:62
+msgid "Header Type 2 First Box Icon"
+msgstr ""
+
+#: lib/admin/customizer/header.php:63
+msgid "Font Awesom Icon Class like fa-map-marker for first box."
+msgstr ""
+
+#: lib/admin/customizer/header.php:81
+msgid "Header Type 2 First Box Title"
+msgstr ""
+
+#: lib/admin/customizer/header.php:82
+msgid "Enter Small title e.g Our Location."
+msgstr ""
+
+#: lib/admin/customizer/header.php:100
+msgid "Header Type 2 First Box Detail"
+msgstr ""
+
+#: lib/admin/customizer/header.php:101
+msgid "Enter Small description e.g 6th Avenue, NeHoland."
+msgstr ""
+
+#: lib/admin/customizer/header.php:119
+msgid "Header Type 2 Second Box Icon"
+msgstr ""
+
+#: lib/admin/customizer/header.php:120
+msgid "Font Awesom Icon Class like fa-phone for first box."
+msgstr ""
+
+#: lib/admin/customizer/header.php:130
+#: template-parts/header/headers/type-three.php:36
+#: template-parts/header/headers/type-two.php:47
+msgid "Call Us"
+msgstr ""
+
+#: lib/admin/customizer/header.php:138
+msgid "Header Type 2 Second Box Title"
+msgstr ""
+
+#: lib/admin/customizer/header.php:139
+msgid "Enter Small title e.g Call Us."
+msgstr ""
+
+#: lib/admin/customizer/header.php:157
+msgid "Header Type 2 Second Box Detail"
+msgstr ""
+
+#: lib/admin/customizer/header.php:158
+msgid "Enter Small description e.g +123-122-1234."
+msgstr ""
+
+#: lib/admin/customizer/header.php:177
+msgid "Enable Appointment Button"
+msgstr ""
+
+#: lib/admin/customizer/header.php:195
+msgid "Header Type 2 Appointment Button Text"
+msgstr ""
+
+#: lib/admin/customizer/header.php:196
+msgid "Enter Small Label e.g Book Appointment"
+msgstr ""
+
+#: lib/admin/customizer/header.php:215
+#: lib/admin/customizer/single-optometrist.php:99
+#: lib/admin/metaboxes/doctor-fields.php:106
+msgid "Appointment Form Shortcode"
+msgstr ""
+
+#: lib/admin/customizer/header.php:218
+msgid ""
+"Contact Form 7 Shortcode to set default shortcode for Appointment Button on "
+"Navigation Bar."
+msgstr ""
+
+#: lib/admin/customizer/header.php:229
+msgid "Header Styling"
+msgstr ""
+
+#: lib/admin/customizer/header.php:232
+msgid "Manage Header Styling"
+msgstr ""
+
+#: lib/admin/customizer/header.php:249 lib/admin/metaboxes/page-layout.php:157
+msgid "Header Background Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:273
+msgid "Common Styles Header type 1 and 2"
+msgstr ""
+
+#: lib/admin/customizer/header.php:290 lib/admin/metaboxes/page-layout.php:164
+msgid "Link Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:308 lib/admin/metaboxes/page-layout.php:171
+msgid "Active/Hover Background Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:326 lib/admin/metaboxes/page-layout.php:178
+msgid "Active/Hover Link Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:344 lib/admin/metaboxes/page-layout.php:185
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:362 lib/admin/metaboxes/page-layout.php:192
+msgid "Sub Menu Link Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:380 lib/admin/metaboxes/page-layout.php:199
+msgid "Sub Menu Link Hover Color"
+msgstr ""
+
+#: lib/admin/customizer/header.php:404
+msgid "Header Type 2 Styles"
+msgstr ""
+
+#: lib/admin/customizer/header.php:421
+msgid "Navigation Background Color"
+msgstr ""
+
+#: lib/admin/customizer/inner-pages.php:3
+msgid "Inner Pages Styles/Layouts"
+msgstr ""
+
+#: lib/admin/customizer/inner-pages.php:4
+msgid "Manage Inner Pages Styles/Layouts"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:5
+msgid "Single Service"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:43
+msgid "Enable Our Team Section"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:52 single-service.php:58
+msgid "Meet Our"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:59
+msgid "Our Team Heading"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:60
+msgid "Wrap in $lt;span&gt; xxx-xx-xxx&lt;/span&gt; To highlight Title"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:70 single-service.php:62
+msgid "We Have Best Professional Team To Care Your Eyes"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:77
+msgid "Our Team Heading Description"
+msgstr ""
+
+#: lib/admin/customizer/services-post-type.php:78
+msgid "Couple of lines about section."
+msgstr ""
+
+#: lib/admin/customizer/single-optometrist.php:5
+msgid "Single Optometrist Page"
+msgstr ""
+
+#: lib/admin/customizer/single-optometrist.php:8
+msgid "Manage Single Doctor page"
+msgstr ""
+
+#: lib/admin/customizer/single-optometrist.php:44
+#: lib/admin/metaboxes/doctor-fields.php:90
+msgid "Disable Testimonials"
+msgstr ""
+
+#: lib/admin/customizer/single-optometrist.php:65
+msgid ""
+"Enter ID of testimonial Group! Please hover on group Edit option, and you "
+"will see tag_id something that's ID something 12 3. ."
+msgstr ""
+
+#: lib/admin/customizer/single-optometrist.php:81
+#: lib/admin/metaboxes/doctor-fields.php:113
+msgid "Disable Appointment Form"
+msgstr ""
+
+#: lib/admin/customizer/single-optometrist.php:102
+msgid "Contact Form 7 Shortcode to set default shortcode for Doctors."
+msgstr ""
+
+#: lib/admin/customizer/single-post.php:5
+msgid "Single Post Page"
+msgstr ""
+
+#: lib/admin/customizer/single-post.php:62
+msgid "Disable Tags"
+msgstr ""
+
+#: lib/admin/customizer/single-post.php:80
+msgid "Disable Social Sharing"
+msgstr ""
+
+#: lib/admin/customizer/single-post.php:98
+msgid "Disable Author Box"
+msgstr ""
+
+#: lib/admin/customizer/single-post.php:116
+msgid "Disable Comments"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:5
+msgid "Social links, Address, Phone, Time"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:8
+msgid "Set Social links, business address, phone and time table"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:43
+msgid "Small Address For Header"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:62
+msgid "Large Address For Footer"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:81
+msgid "Business Email address"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:100
+msgid "Business Timetable for Header"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:131
+msgid "Facebook Link"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:150
+msgid "Twitter Link"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:169
+msgid "LinkedIn Link"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:188
+msgid "Instagram Link"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:207
+msgid "Google Plus Link"
+msgstr ""
+
+#: lib/admin/customizer/site-identity.php:226
+msgid "Youtube Link"
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:5
+#: lib/admin/metaboxes/page-layout.php:213
+msgid "Title Section"
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:8
+msgid "Manage Title Section"
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:24
+msgid "Disable Title Section"
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:41
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:61
+msgid "Upload Title Section Background"
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:62
+msgid "Recommended Size: 1920x400."
+msgstr ""
+
+#: lib/admin/customizer/title-section.php:101
+msgid "Links/Text Color"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:10 lib/admin/metaboxes/page-layout.php:36
+msgid "Top Bar"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:11
+msgid "Set what to Display in Top Bar"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:23 lib/admin/customizer/top-bar.php:65
+msgid "Styling"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:26
+msgid "Manage Topbar styling"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:43
+msgid "Enable Topbar"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:100 lib/admin/metaboxes/page-layout.php:101
+msgid "Border Color"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:154 lib/admin/metaboxes/page-layout.php:122
+#: lib/admin/metaboxes/page-layout.php:398
+msgid "Text Color"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:168
+msgid "Left Section"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:185
+msgid "Display on Left Side:"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:189 lib/admin/customizer/top-bar.php:276
+#: lib/admin/customizer/top-bar.php:378 lib/admin/metaboxes/page-layout.php:55
+#: lib/admin/metaboxes/page-layout.php:78
+msgid "Text Field"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:190 lib/admin/customizer/top-bar.php:277
+#: lib/admin/metaboxes/page-layout.php:60
+#: lib/admin/metaboxes/page-layout.php:83
+msgid "Top Menu"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:191 lib/admin/customizer/top-bar.php:278
+#: lib/admin/metaboxes/page-layout.php:65
+#: lib/admin/metaboxes/page-layout.php:88
+#: lib/admin/metaboxes/page-layout.php:449
+#: lib/admin/metaboxes/page-layout.php:472
+msgid "Selective Social Icons"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:213 lib/admin/customizer/top-bar.php:300
+#: lib/admin/customizer/top-bar.php:325
+msgid "Selective Icons OR Text Field"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:225 lib/admin/customizer/top-bar.php:312
+msgid ""
+"Please go back to Top Bar &gt;&gt; Selective Icons Or Text Field to select "
+"and set values."
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:237
+msgid "Right Section"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:240 lib/admin/customizer/top-bar.php:328
+msgid "Manage Right Side"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:257
+msgid "Disable Search Box"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:272
+msgid "Display on Right Side:"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:349
+msgid ""
+"Once you selected icons to display go back to left, or right section of "
+"topbar and select selective icons for that section. To set values of these "
+"fields, please go back to Social links, address section."
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:370
+#: template-parts/header/top-bar/text-field.php:7
+msgid "We are Serving the Entire Texas Area So reach us today!"
+msgstr ""
+
+#: lib/admin/customizer/top-bar.php:379
+msgid ""
+"Once you enter text for topbar, go back to left or right top bar sections "
+"and select Text Field."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:5
+msgid "Typography Options"
+msgstr ""
+
+#: lib/admin/customizer/typography.php:8
+msgid "Set Fonts and Size."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:21
+msgid "Select Headings Font Family."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:22
+msgid ""
+"This font family will work for h1,h2,h3,h4,h5,h6 buttons, pricing table "
+"titles, faq questions etc."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:53
+msgid "Select Primary Navigation Font Family."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:54
+msgid ""
+"This font family will be used for primary navigation, parent and child menu "
+"items."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:85
+msgid "Select Main Font Family."
+msgstr ""
+
+#: lib/admin/customizer/typography.php:86
+msgid ""
+"This font family will be used for paragraphs, body, ul, a, ol and all other "
+"elements."
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:5
+msgid "Shop Page"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:8
+msgid "Manage Shop Page"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:50
+msgid "Products Per Row"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:55
+msgid "Two Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:56
+msgid "Three Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:57
+msgid "Four Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:72
+msgid "Products Per Page"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:77
+msgid "3 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:78
+msgid "6 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:79
+msgid "9 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:80
+msgid "12 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:81
+msgid "15 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:82
+msgid "18 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:83
+msgid "21 Products"
+msgstr ""
+
+#: lib/admin/customizer/wc-shop-page.php:84
+msgid "24 Products"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:25
+msgid "Optometrist Settings"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:32
+msgid "Optometrist Slogan"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:35
+msgid "Line to show under Doctor Name, e.g M.Phill Optometrist from Harvard!\n"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:40
+msgid "Optometrist Speciality"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:43
+msgid "Use &lt;dr&gt; Between Speciality to show more than 1.\n"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:48
+msgid "Optometrist Availability 1"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:51
+msgid "e.g Sunday - Saturday: Only Appointment"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:55
+msgid "Optometrist Availability 2"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:58
+msgid "e.g Monday - Friday: 9:00 - 15:00"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:62
+msgid "Doctor Social Icons"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:65
+msgid "Facebook e.g http://facebook.com/yourpage"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:72
+msgid "Twitter e.g http://twitter.com/yourname"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:79
+msgid "Google Plus e.g http://plus.google.com/username"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:86
+msgid "LinkedIn e.g http://linkedin.com/username"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:94
+msgid "Turn Testimonials on or off"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:102
+msgid "Only 2 Testimonials will appear from selected Group"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:109
+msgid "Contact Form 7 for This Vet"
+msgstr ""
+
+#: lib/admin/metaboxes/doctor-fields.php:117
+msgid "Turn Appointment on or off"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:29
+msgid "Page Layout/Style"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:41
+msgid "Display Top Bar"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:44
+msgid "Disable or Enable Top Bar on this page/post"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:48
+#: lib/admin/metaboxes/page-layout.php:432
+msgid "Display on Left Side"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:51
+#: lib/admin/metaboxes/page-layout.php:74
+msgid ""
+"For Text Field, or Social Icons, go to Customizer >> top bar and select "
+"icons, and text for text field."
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:71
+#: lib/admin/metaboxes/page-layout.php:455
+msgid "Display on Right Side"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:97
+#: lib/admin/metaboxes/page-layout.php:104
+#: lib/admin/metaboxes/page-layout.php:111
+#: lib/admin/metaboxes/page-layout.php:118
+#: lib/admin/metaboxes/page-layout.php:125
+#: lib/admin/metaboxes/page-layout.php:160
+#: lib/admin/metaboxes/page-layout.php:167
+#: lib/admin/metaboxes/page-layout.php:174
+#: lib/admin/metaboxes/page-layout.php:181
+#: lib/admin/metaboxes/page-layout.php:188
+#: lib/admin/metaboxes/page-layout.php:195
+#: lib/admin/metaboxes/page-layout.php:202
+#: lib/admin/metaboxes/page-layout.php:209
+#: lib/admin/metaboxes/page-layout.php:242
+#: lib/admin/metaboxes/page-layout.php:249
+#: lib/admin/metaboxes/page-layout.php:292
+#: lib/admin/metaboxes/page-layout.php:299
+#: lib/admin/metaboxes/page-layout.php:306
+#: lib/admin/metaboxes/page-layout.php:313
+#: lib/admin/metaboxes/page-layout.php:333
+#: lib/admin/metaboxes/page-layout.php:339
+#: lib/admin/metaboxes/page-layout.php:350
+#: lib/admin/metaboxes/page-layout.php:364
+#: lib/admin/metaboxes/page-layout.php:394
+#: lib/admin/metaboxes/page-layout.php:401
+#: lib/admin/metaboxes/page-layout.php:408
+#: lib/admin/metaboxes/page-layout.php:415
+#: lib/admin/metaboxes/page-layout.php:428
+#: lib/admin/metaboxes/page-layout.php:481
+#: lib/admin/metaboxes/page-layout.php:488
+#: lib/admin/metaboxes/page-layout.php:495
+msgid "Use Appearance >> Customize for default behaviour"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:129
+msgid "Header Options"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:137
+msgid ""
+"If you selected header type 2 Go to Appearance >> Customize >> Header to set "
+"value for right section."
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:141
+msgid "Type1: (Left Side Logo, Right side Navigation)"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:146
+msgid "Type2: (Left Logo, Right Text Field, Full width Nav)"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:151
+msgid "Type3: (Left right Information boxes, Center Logo Centered Navigation.)"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:206
+msgid "Header Type2 Navigation Background Color"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:218
+msgid "Display Title Section"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:221
+msgid "Disable or Enable Title Section on this page/post"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:225
+msgid "Title Section Background"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:228
+#: lib/admin/metaboxes/page-layout.php:320
+msgid "Use Appearance >> customize for default Background on all pages"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:232
+msgid "Display Breadcrumbs?"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:235
+msgid ""
+"Disable or Enable Breadcrumbs use Appearance >> Customize for default "
+"behaviour"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:246
+msgid "Text/Link Color"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:255
+msgid "Sidebar Options"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:260
+msgid "Sidebar Position"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:263
+#: lib/admin/metaboxes/page-layout.php:371
+msgid "From Appearance >> Menu default position can set."
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:284
+msgid "Call to Action"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:289
+msgid "Display Call To Action Box?"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:310
+msgid "Text/Button Hover/Text Highlight Color"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:317
+msgid "Side Image Call to Action"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:324
+msgid "Left Text"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:327
+msgid "Wrap in &lt;span&gt;xxx-xx-xxx&lt;/span&gt; To highlight Text"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:330
+msgid "Right button Text"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:336
+msgid "Right Button Link"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:342
+msgid "Footer Top Area"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:347
+msgid "Display Footer Top Area?"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:354
+msgid "Footer Background"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:357
+msgid "Use Appearance >> customize for default options"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:368
+msgid "Footer Widgets"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:391
+msgid "Heading Color"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:412
+#: lib/admin/metaboxes/page-layout.php:492
+msgid "Link Hover Color"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:420
+msgid "Footer Bottom Area"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:425
+msgid "Display Footer Bottom Area?"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:435
+#: lib/admin/metaboxes/page-layout.php:458
+msgid ""
+"For Copyright info, or Social Icons, go to Customizer >> footer bottomnd "
+"select icons, and text for text field."
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:485
+msgid "Text/Links Color"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:506
+#: lib/admin/metaboxes/page-layout.php:509
+msgid "Enable Boxed Layout"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:513
+msgid "Select Background Image"
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:516
+msgid "Leave Blank to use apperance >> Customize Image."
+msgstr ""
+
+#: lib/admin/metaboxes/page-layout.php:523
+msgid "Leave blank to use appearance >> customize color"
+msgstr ""
+
+#: lib/admin/metaboxes/testimonial-fields.php:25
+msgid "Testimonials Detail"
+msgstr ""
+
+#: lib/admin/metaboxes/testimonial-fields.php:32
+msgid "Testimonial By"
+msgstr ""
+
+#: lib/admin/metaboxes/testimonial-fields.php:35
+msgid "Name of Client who wrote this Testimonial"
+msgstr ""
+
+#: lib/admin/metaboxes/testimonial-fields.php:39
+msgid "Testimonial Detail"
+msgstr ""
+
+#: lib/admin/metaboxes/testimonial-fields.php:42
+msgid "Text of Testimonial"
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:16
+msgid "Brands Carousel"
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:17
+msgid "Make Brands Carousel."
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:23
+msgid "Add Brands"
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:26
+msgid "Add new partner"
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:33
+msgid "Partner Link"
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:35
+msgid "Enter URL to link the Brand/Parnter. Leave blank to not link."
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:39
+msgid "Partner Logo"
+msgstr ""
+
+#: lib/admin/pagebuilder/brands-carousel.php:41
+msgid "Recommended Size 200x100"
+msgstr ""
+
+#: lib/admin/pagebuilder/extend-columns.php:19
+#: lib/admin/pagebuilder/extend-columns.php:34
+#: lib/admin/pagebuilder/extend-row.php:18
+msgid "Background Type"
+msgstr ""
+
+#: lib/admin/pagebuilder/extend-columns.php:22
+#: lib/admin/pagebuilder/extend-columns.php:37
+#: lib/admin/pagebuilder/extend-row.php:21
+msgid "Transparent Background"
+msgstr ""
+
+#: lib/admin/pagebuilder/extend-columns.php:23
+#: lib/admin/pagebuilder/extend-columns.php:38
+#: lib/admin/pagebuilder/extend-row.php:22
+msgid "Grey Background"
+msgstr ""
+
+#: lib/admin/pagebuilder/extend-columns.php:24
+#: lib/admin/pagebuilder/extend-columns.php:39
+#: lib/admin/pagebuilder/extend-row.php:23
+msgid "Background Image with Little Transparent Background"
+msgstr ""
+
+#: lib/admin/pagebuilder/extend-columns.php:27
+#: lib/admin/pagebuilder/extend-columns.php:42
+#: lib/admin/pagebuilder/extend-row.php:26
+msgid ""
+"Select Background Type. To update style of these Types go to Appearance >> "
+"customize , Elements Section"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:19 lib/admin/pagebuilder/our-services.php:20
+#: lib/admin/pagebuilder/our-staff.php:18
+#: lib/admin/pagebuilder/testimonials.php:19
+msgid "All Groups"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:31
+msgid "Faq Box"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:32
+msgid "Make Faq section in accordion style."
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:38
+msgid "Group Of FAQ's"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:42 lib/admin/pagebuilder/our-services.php:68
+msgid "Select Group of Services to Fetch Data from."
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:46
+msgid "Limit Questions"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:49
+msgid "Type -1 to fetch all Questions."
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:53
+msgid "Sort Type"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:56
+msgid "Descending"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:57
+msgid "Ascending"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:60
+msgid "Default DESC newest First.."
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:64 lib/admin/pagebuilder/testimonials.php:40
+msgid "Display Type"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:67
+msgid "Display All in 1 Accordion without group title"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:68
+msgid "Grouped with Seprate Accordion with group title"
+msgstr ""
+
+#: lib/admin/pagebuilder/faqs.php:71
+msgid ""
+"If you want all questions display in single accordion select First option. "
+"Second option will print Group heading, and following its questions."
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:16
+msgid "Clinic Gallery"
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:17
+msgid "Make Beautiful Clinic Gallery."
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:23
+msgid "Add Gallery Items"
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:26
+msgid "Add new item"
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:33
+msgid "Description Of Image"
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:35
+msgid ""
+"Enter Some description about this image, this will display below image when "
+"large image opens in Lightbox."
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:39
+msgid "Gallery Image"
+msgstr ""
+
+#: lib/admin/pagebuilder/gallery.php:41
+msgid ""
+"Try to use similar size images, if looking for Masnory then try King "
+"Composer default gallery element."
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:17
+msgid "Highlight Banner"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:18
+msgid "Display highlight banner with image"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:24
+#: lib/admin/pagebuilder/small-banner.php:24
+msgid "Image For Banner"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:27
+#: lib/admin/pagebuilder/small-banner.php:27
+msgid "Please Select Image For banner Recommended Size: 532x800."
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:31
+#: lib/admin/pagebuilder/icon-box.php:31
+#: lib/admin/pagebuilder/small-banner.php:31
+msgid "Heading of Box"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:34
+#: lib/admin/pagebuilder/highlight-banner.php:48
+#: lib/admin/pagebuilder/icon-box.php:34
+#: lib/admin/pagebuilder/small-banner.php:34
+msgid "Please enter Heading for box."
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:38
+#: lib/admin/pagebuilder/price-table.php:45
+#: lib/admin/pagebuilder/small-banner.php:45
+msgid "Button Text"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:41
+msgid "Please enter Text For button. Leave Blank to Hide Button."
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:45
+#: lib/admin/pagebuilder/price-table.php:52
+#: lib/admin/pagebuilder/small-banner.php:52
+msgid "Button Link"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:52
+msgid "Add Process"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:55
+msgid "Add new process"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:62
+msgid "Heading Of Process"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:64
+msgid "Enter heading for this process."
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:68
+msgid "Text of Process"
+msgstr ""
+
+#: lib/admin/pagebuilder/highlight-banner.php:70
+msgid "Enter description for this process."
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:17
+msgid "Icon Box"
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:18
+msgid "Display Icon box with heading and detail"
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:24
+msgid "Icon For Box"
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:27
+msgid "Please Select Icon for the Box."
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:38
+msgid "Enter Description"
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:41
+msgid "Two three lines of Description."
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:45
+msgid "Link Heading"
+msgstr ""
+
+#: lib/admin/pagebuilder/icon-box.php:48
+msgid "Link heading. Leave blank if you dont want to add link."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:16
+msgid "Blog Posts"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:17
+msgid "Add Blog Posts Style."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:23
+msgid "Select Categories"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:26
+msgid "Select categories leave blank to featch from all."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:30
+msgid "Limit Posts"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:39
+msgid "Select -1 to Featch all Posts."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:43
+msgid "Columns To Show"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:46
+msgid "One Per Row"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:47
+msgid "Two Per Row"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:48
+msgid "Three Per Row"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:49
+msgid "Four Per Row"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:50
+msgid "Six Per Row"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:53
+msgid "Select number of columns you want to display."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:57
+#: lib/admin/pagebuilder/our-staff.php:50
+msgid "Special Apperaance"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:60
+#: lib/admin/pagebuilder/optometrist-blog.php:77
+#: lib/admin/pagebuilder/our-services.php:82
+#: lib/admin/pagebuilder/our-staff.php:53
+msgid "Yes"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:63
+msgid ""
+"If Checked Special Appearance for Posts, two main Columns, 1st column with "
+"big post, second column with 3 small posts stacked."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:70
+msgid "Enter the Length of Excerpt you want to display."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:74
+msgid "Hide Meta Data"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:80
+msgid "If Checked meta data will hide."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:84
+msgid "Blog Button Link"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:87
+msgid "Enter the link of your posts page."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:91
+msgid "Blog Button Text"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:94
+msgid ""
+"Enter the text of your Visit blog button. If left blank button will not "
+"display."
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:290
+#: lib/admin/pagebuilder/optometrist-blog.php:348
+#: lib/admin/pagebuilder/our-services.php:204
+#: template-parts/post-type/group-services.php:24
+msgid "Read More"
+msgstr ""
+
+#: lib/admin/pagebuilder/optometrist-blog.php:293
+#: lib/admin/pagebuilder/optometrist-blog.php:351
+msgid "Comments"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:34
+msgid "Our Services"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:35
+msgid "List Our Services from Post Type Services"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:41
+#: lib/admin/pagebuilder/our-staff.php:39
+msgid "Type of Display"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:44
+#: lib/admin/pagebuilder/our-staff.php:42
+msgid "Display Carousel"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:45
+#: lib/admin/pagebuilder/our-staff.php:43
+msgid "Display Grid"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:48
+#: lib/admin/pagebuilder/our-staff.php:46
+msgid "You want to Display Carousel or Grid."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:52
+msgid "Number of columns if Grid"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:55
+#: lib/admin/pagebuilder/testimonials.php:55
+msgid "Two Columns"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:56
+#: lib/admin/pagebuilder/testimonials.php:56
+msgid "Three Columns"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:57
+#: lib/admin/pagebuilder/testimonials.php:57
+msgid "Four Columns"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:60
+msgid "Number of Columns Per Row."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:64
+msgid "Group Of Services"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:72
+msgid "Maximum Services"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:75
+msgid "Maximum services you want to display. Leave Blank to Fetch all."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:79
+msgid "Show Expert"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:83
+msgid "No"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-services.php:86
+msgid "Short Description of Service."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:32
+msgid "Our Doctors"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:33
+msgid "List Our doctors from Post Type Optometrists"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:56
+msgid ""
+"If Checked Special Appearance for Staff, four Members per row with name "
+"display only. On hover other information come up."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:60
+msgid "Group Of doctors"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:64
+msgid "Select Group of doctors to Fetch Data from."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:68
+msgid "Maximum doctors"
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:71
+msgid "Maximum doctors you want to display. Leave Blank to Fetch all."
+msgstr ""
+
+#: lib/admin/pagebuilder/our-staff.php:204 single-service.php:106
+#: template-parts/post-type/group-optometrist.php:42
+msgid "Visit Profile"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:17
+msgid "Pricing Table"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:18
+msgid "Add Pricing Table"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:24
+msgid "Table Heading"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:27
+msgid "Please enter Heading for table."
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:31
+msgid "Price"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:34
+msgid "Price with currency symbol."
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:38
+msgid "Price Label"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:41
+msgid "Small label with or without slash e.g: /Month."
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:48
+msgid "Text for Table Button."
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:55
+msgid "Link Table."
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:59
+msgid "Add Table Fields"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:62
+msgid "Add new table row"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:69
+msgid "Row Type"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:71
+msgid "Please select which type of row is this."
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:73
+msgid "Please select type"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:74
+msgid "Checked List"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:75
+msgid "Crossed List"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:80
+msgid "Row Label"
+msgstr ""
+
+#: lib/admin/pagebuilder/price-table.php:82
+msgid "Title Row For Inner Area. If blank Title Row will not be included."
+msgstr ""
+
+#: lib/admin/pagebuilder/section-title.php:17
+msgid "Section Title"
+msgstr ""
+
+#: lib/admin/pagebuilder/section-title.php:18
+msgid "Display Section Title"
+msgstr ""
+
+#: lib/admin/pagebuilder/section-title.php:24
+msgid "Enter Title"
+msgstr ""
+
+#: lib/admin/pagebuilder/section-title.php:27
+msgid ""
+"Please enter title of section here. Use &lt;span&gt;highlightext here&lt;/"
+"span&gt; around text to highlight."
+msgstr ""
+
+#: lib/admin/pagebuilder/section-title.php:31
+msgid "Enter Title Description"
+msgstr ""
+
+#: lib/admin/pagebuilder/section-title.php:34
+msgid "Enter some description below title, leave blank for no Description."
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:17
+msgid "Small Banner"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:18
+msgid "Display Small banner with image"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:38
+msgid "Description of Box"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:41
+msgid "Please enter Description for box."
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:48
+msgid "Text for button."
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:55
+msgid "Link for button."
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:59
+msgid "Button Style"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:62
+msgid "Primary"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:63
+msgid "Secondary"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:66
+msgid "Style of button."
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:71
+msgid "Checklist Items"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:74
+msgid "Add list item"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:81
+msgid "List Item Text"
+msgstr ""
+
+#: lib/admin/pagebuilder/small-banner.php:83
+msgid "Enter list item text."
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:33
+msgid "Make testimonials Grid/Carousel."
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:43
+msgid "Grid Type"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:44
+msgid "Carousel Type"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:47
+msgid ""
+"Select Display Type, Carousel will have full widh available space, for grid "
+"you can select columns below."
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:51
+msgid "Columns"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:54
+msgid "One Column"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:58
+msgid "Six Columns"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:61
+msgid ""
+"Select how many columns, This will work only with Grid type. Carousel will "
+"have full width 1 column"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:65
+msgid "Loading Limit"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:68
+msgid "Leave Blank or put -1 for loading all testimonials."
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:72
+msgid "Group Of Testimonials"
+msgstr ""
+
+#: lib/admin/pagebuilder/testimonials.php:76
+msgid "Select group of testimonials."
+msgstr ""
+
+#: lib/admin/theme-options.php:34
+msgid "Additional Codes"
+msgstr ""
+
+#: lib/admin/theme-options.php:35
+msgid "Add additional code to site. CSS and JS"
+msgstr ""
+
+#: lib/admin/theme-options.php:38
+msgid "Sidebar content goes here!"
+msgstr ""
+
+#: lib/admin/theme-options.php:43
+msgid "Additional Code"
+msgstr ""
+
+#: lib/admin/theme-options.php:50
+msgid "Custom CSS"
+msgstr ""
+
+#: lib/admin/theme-options.php:51
+msgid "Custom CSS box does not need starting and closing style tags."
+msgstr ""
+
+#: lib/admin/theme-options.php:58
+msgid "JavaScript"
+msgstr ""
+
+#: lib/admin/theme-options.php:59
+msgid "Custom javascript Does not require starting and closing script tags."
+msgstr ""
+
+#: lib/admin/theme-options.php:66
+msgid "Theme Customize Options"
+msgstr ""
+
+#: lib/admin/theme-options.php:67
+msgid ""
+"This theme use wordpress default Apperance >> Customize for customize "
+"options."
+msgstr ""
+
+#: lib/admin/wc-tgm-load.php:19
+msgid "WebfulCreations Utilities"
+msgstr ""
+
+#: lib/admin/wc-tgm-load.php:29
+msgid "Slider Revolution"
+msgstr ""
+
+#: lib/admin/wc-tgm-load.php:39
+msgid "Contact Form 7"
+msgstr ""
+
+#: lib/admin/wc-tgm-load.php:45
+msgid "OptionTree"
+msgstr ""
+
+#: lib/admin/wc-tgm-load.php:51
+msgid "Page Builder: KingComposer"
+msgstr ""
+
+#: lib/admin/wc-tgm-load.php:56
+msgid "WooCommerce"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:14
+msgid "EyeCare - Contact"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:15
+msgid "EyeCare Footer Contact Widget"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:74
+msgid "Social:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:116
+#: template-parts/header/headers/type-three.php:23
+#: template-parts/header/headers/type-two.php:34
+msgid "Our Location"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:118
+msgid "Address"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:119
+msgid "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:122
+msgid "Phone"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:123
+msgid "123-123-1234"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:127
+msgid "ateeq@yoursite.com"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:131 lib/admin/widgets/time_table.php:76
+msgid "Title:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:136
+msgid "Address Title:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:141
+msgid "Address:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:146
+msgid "Phone Title:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:151
+msgid "Phone:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:156
+msgid "Email Title:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:161
+msgid "Email:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:166
+msgid "Enable Social Icons:"
+msgstr ""
+
+#: lib/admin/widgets/contact_widget.php:175
+msgid ""
+"To set URls of Social icons please go to Appearance >> Customize Section."
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:14
+msgid "EyeCare - Time Table"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:15
+msgid "EyeCare Footer Time Table Widget"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:66
+msgid "Office Hours"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:68
+msgid "Monday: <span>09:00 - 17:00</span>"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:69
+msgid "Tuseday: <span>09:00 - 17:00</span>"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:70
+msgid "Wednesday: <span>09:00 - 17:00</span>"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:71
+msgid "Thursday: <span>09:00 - 17:00</span>"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:72
+msgid "Friday: <span>09:00 - 17:00</span>"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:73
+msgid "Saturday, Sunday: <span>Closed</span>"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:81
+msgid "First Row:"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:86
+msgid "Second Row:"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:91
+msgid "Third Row:"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:96
+msgid "Fourth Row:"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:101
+msgid "Fifth Row:"
+msgstr ""
+
+#: lib/admin/widgets/time_table.php:106
+msgid "Sixth Row:"
+msgstr ""
+
+#: lib/core-functions.php:96
+msgid "Top Navigation Menu"
+msgstr ""
+
+#: lib/core-functions.php:97
+msgid "Main Navigation Menu"
+msgstr ""
+
+#: lib/core-functions.php:98
+msgid "Footer Navigation Menu"
+msgstr ""
+
+#: lib/core-functions.php:502
+msgid "Primary Sidebar"
+msgstr ""
+
+#: lib/core-functions.php:504
+msgid "Add Widgets to Blog/Primary Sidebar areas"
+msgstr ""
+
+#: lib/core-functions.php:513
+msgid "Page Sidebar"
+msgstr ""
+
+#: lib/core-functions.php:515
+msgid "Add Widgets to Page Sidebar areas"
+msgstr ""
+
+#: lib/core-functions.php:525
+msgid "Shop Sidebar"
+msgstr ""
+
+#: lib/core-functions.php:527
+msgid "Add Widget to Shop pages"
+msgstr ""
+
+#: lib/core-functions.php:539
+msgid "Services Sidebar"
+msgstr ""
+
+#: lib/core-functions.php:541
+msgid "Add Widgets to Single Service Sidebar."
+msgstr ""
+
+#: lib/core-functions.php:551
+msgid "Footer 1"
+msgstr ""
+
+#: lib/core-functions.php:553
+msgid "Add Widget to Footer 1 Area"
+msgstr ""
+
+#: lib/core-functions.php:562
+msgid "Footer 2"
+msgstr ""
+
+#: lib/core-functions.php:564
+msgid "Add Widget to Footer 2 Area"
+msgstr ""
+
+#: lib/core-functions.php:573
+msgid "Footer 3"
+msgstr ""
+
+#: lib/core-functions.php:575
+msgid "Add Widget to Footer 3 Area"
+msgstr ""
+
+#: lib/core-functions.php:584
+msgid "Footer 4"
+msgstr ""
+
+#: lib/core-functions.php:586
+msgid "Add Widget to Footer 4 Area"
+msgstr ""
+
+#: lib/core-functions.php:626 lib/core-functions.php:636
+msgid "Our Blog"
+msgstr ""
+
+#: lib/core-functions.php:648
+msgid "Results for: "
+msgstr ""
+
+#: lib/core-functions.php:652
+msgid "Error 404!"
+msgstr ""
+
+#: lib/core-functions.php:691
+msgid "Home"
+msgstr ""
+
+#: lib/core-functions.php:719 lib/core-functions.php:738
+msgid "Current: "
+msgstr ""
+
+#: lib/core-functions.php:858
+msgid "Tag: "
+msgstr ""
+
+#: lib/core-functions.php:862 lib/core-functions.php:864
+#: lib/core-functions.php:866 lib/core-functions.php:869
+#: lib/core-functions.php:871 lib/core-functions.php:876
+msgid "Archives"
+msgstr ""
+
+#: lib/core-functions.php:884
+msgid "Author"
+msgstr ""
+
+#: lib/core-functions.php:887
+msgid "Page"
+msgstr ""
+
+#: lib/core-functions.php:891
+msgid "Search results for: "
+msgstr ""
+
+#: lib/core-functions.php:894
+msgid "Error 404"
+msgstr ""
+
+#: lib/core-functions.php:1072
+msgid "Read More..."
+msgstr ""
+
+#: lib/core-functions.php:1143
+msgid "Trackback:"
+msgstr ""
+
+#: lib/core-functions.php:1143 lib/core-functions.php:1148
+msgid "Edit"
+msgstr ""
+
+#: lib/core-functions.php:1148
+msgid "Pingback:"
+msgstr ""
+
+#: lib/core-functions.php:1159
+msgid "by"
+msgstr ""
+
+#: lib/core-functions.php:1161
+msgid "Posted"
+msgstr ""
+
+#: lib/core-functions.php:1166
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/core-functions.php:1239
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: lib/core-functions.php:1241
+msgid "Enter Password"
+msgstr ""
+
+#: lib/core-functions.php:1243
+msgid "Enter"
+msgstr ""
+
+#: lib/core-functions.php:1265
+msgid "Enter your question here"
+msgstr ""
+
+#: lib/core-functions.php:1268
+msgid "Enter Testimonial Title e.g Cheif Executive, Some Company"
+msgstr ""
+
+#: lib/woocommerce_config.php:47
+msgid "Share on Facebook"
+msgstr ""
+
+#: lib/woocommerce_config.php:48
+msgid "Share on Twitter"
+msgstr ""
+
+#: lib/woocommerce_config.php:49
+msgid "Share on Google Plus"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:2 woocommerce/product-searchform.php:26
+msgid "Search for:"
+msgstr ""
+
+#: single-optometrist.php:120
+msgid "What"
+msgstr ""
+
+#: single-optometrist.php:120
+msgid "Patients Says"
+msgstr ""
+
+#: single-optometrist.php:121
+msgid "We have great feedback about "
+msgstr ""
+
+#: single-service.php:135
+msgid ""
+"No post in Optometrist section. Disable this section from Appearance >> "
+"Customize or add posts"
+msgstr ""
+
+#: template-parts/footer/call-to-action.php:52
+msgid "If you Have Any Questions We are Here"
+msgstr ""
+
+#: template-parts/footer/call-to-action.php:52
+msgid "DON'T HESITATE TO CONTACT US ANY TIME."
+msgstr ""
+
+#: template-parts/footer/call-to-action.php:100
+msgid "Call To Action Image"
+msgstr ""
+
+#: template-parts/footer/footer-bottom/copyright-info.php:2
+msgid "2017 &copy;"
+msgstr ""
+
+#: template-parts/footer/footer-bottom/footer-menu.php:11
+#: template-parts/header/headers/type-one.php:43
+#: template-parts/header/headers/type-three.php:123
+#: template-parts/header/headers/type-two.php:118
+#: template-parts/header/top-bar/top-menu.php:10
+msgid "Add Menu going Appearance >> Menus"
+msgstr ""
+
+#: template-parts/footer/footer-bottom/selective-social-icons.php:17
+#: template-parts/header/top-bar/selective-icons.php:17
+msgid "Monday - Friday : 09:00-17:00"
+msgstr ""
+
+#: template-parts/footer/footer-information-boxes.php:58
+msgid "+92 345 44433456"
+msgstr ""
+
+#: template-parts/header/headers/type-three.php:27
+#: template-parts/header/headers/type-two.php:38
+msgid "6th Avenue, NeHoland"
+msgstr ""
+
+#: template-parts/header/headers/type-three.php:40
+#: template-parts/header/headers/type-two.php:51
+msgid "+123-123-1234"
+msgstr ""
+
+#: template-parts/header/headers/type-three.php:138
+#: template-parts/header/headers/type-two.php:133
+msgid "Book Appointment"
+msgstr ""
+
+#: template-parts/header/headers/type-three.php:159
+#: template-parts/header/headers/type-two.php:153
+msgid "Go to Appearance >> Customize >> Header to add shortcode for form."
+msgstr ""
+
+#: template-parts/post-type/blog.php:41
+#: template-parts/post-type/single-post.php:35
+msgid "Featured"
+msgstr ""
+
+#: template-parts/post-type/blog.php:92
+#: template-parts/post-type/default-page.php:65
+#: template-parts/post-type/group-optometrist.php:73
+#: template-parts/post-type/group-services.php:37
+#: template-parts/post-type/image.php:66
+#: template-parts/post-type/single-doctor.php:82
+#: template-parts/post-type/single-post.php:140
+#: template-parts/post-type/single-service.php:57
+msgid "Sorry but could not find anything related to your criteria."
+msgstr ""
+
+#: template-parts/post-type/default-page.php:47
+#: template-parts/post-type/single-doctor.php:72
+#: template-parts/post-type/single-post.php:71
+#: template-parts/post-type/single-service.php:46
+msgid "Pages"
+msgstr ""
+
+#: template-parts/post-type/image.php:37
+msgid "Previous Image"
+msgstr ""
+
+#: template-parts/post-type/image.php:38
+msgid "Next Image"
+msgstr ""
+
+#: template-parts/post-type/search.php:73
+msgid "Nothing Found For:"
+msgstr ""
+
+#: template-parts/post-type/search.php:78
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/post-type/single-post.php:83
+msgid "Tags"
+msgstr ""
+
+#: template-parts/post-type/single-post.php:116
+msgid "About"
+msgstr ""
+
+#: template-parts/sidebar/doctor-form-sidebar.php:45
+msgid ""
+"Create a Form in Contact Form 7, and place shortcode in Customizer for "
+"default behaviour. And in Doctor post for special form for this doctor."
+msgstr ""
+
+#: template-parts/sidebar/doctor-info-sidebar.php:27
+msgid "Speciality"
+msgstr ""
+
+#: template-parts/sidebar/doctor-info-sidebar.php:34
+msgid "Availability"
+msgstr ""
+
+#: template-parts/sidebar/doctor-info-sidebar.php:49
+msgid "Social"
+msgstr ""
+
+#: template-parts/sidebar/services-sidebar.php:11
+msgid "services-sidebar"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:27
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products &hellip;"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:54
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/woocommerce_related_items.php:43
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/woocommerce_related_items.php:44
+msgid "We suggest you some related items."
+msgstr ""

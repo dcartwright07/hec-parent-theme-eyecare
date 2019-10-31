@@ -1,0 +1,107 @@
+/*---------------------------------------------------------------
+	Some basic Visual Editor Styles!
+  -------------------------------------------------------------*/
+.aligncenter { 
+	display: block; 
+	margin: 0 auto; 
+}
+.alignright { 
+	float: right; 
+	margin: 0 0 10px 20px; 
+}
+.alignleft { 
+	float: left; 
+	margin: 0 20px 10px 0; 
+}
+.floatleftcenter { 
+	float: none; 
+	margin: 0 auto; 
+}
+.floatleft { 
+	float: left 
+}
+.floatright { 
+	float: right 
+}
+.wp-caption, 
+.gallery-caption { 
+	text-align: center; 
+	max-width: 100%; 
+	border: 1px solid #ededed; 
+	background-color: #fff; 
+	padding: 8px; 
+}
+.wp-caption img { 
+	display: block; 
+	margin: 0 auto; 
+	padding: 0; 
+	border: 0 none; 
+}
+.wp-caption p.wp-caption-text { 
+	font-size: 0.875em; 
+	padding: 10px 0 0; 
+	margin: 0; 
+	text-align: center; 
+}
+.wp-caption.alignnone { 
+	margin-bottom: 20px 
+}
+.wp-smiley { 
+	margin: 0; 
+	max-height: 1em; 
+}
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.bypostauthor {
+	line-height:25px; 
+}
+#img-attch-page { 
+	text-align: center; 
+	overflow: hidden; 
+}
+#img-attch-page img { 
+	display: inline-block; 
+	margin: 0 auto; 
+	max-width: 100%; 
+	margin-bottom: 20px; 
+}
+.post-password-form label, 
+.post-password-form input { 
+	display: block; 
+	float: none; 
+}
+.post-password-form input { 
+	margin-top: 10px 
+}
+.post-password-form input[type="password"] { 
+	width: 200px; 
+	max-width: 100%; 
+}
+.post-password-form label { 
+	font-weight: 600; 
+	color: #000; 
+}
