@@ -95,10 +95,16 @@ if(function_exists('wc_required_modules')) {
 if( function_exists( 'wc_required_modules' ) ) {
 	function wc_services_button_taxanomy() {
 
+		$labels = array(
+			'name'              => esc_html__( 'Services Button', 'eyecare' ),
+			'singular_name'     => esc_html__( 'Services Button', 'eyecare' ),
+			'menu_name'         => esc_html__( 'Services Button', 'eyecare' ),
+		);
+
 		$args = array(
 			'post_type'			    => array( esc_html__( 'service', "eyecare" ) ),
 			'hierarchical'      => true,
-			// 'labels'            => get_pages(),
+			'labels'            => $labels,
 			'show_ui'           => true,
 			'show_admin_column' => true,
 			'query_var'         => true,
@@ -107,6 +113,12 @@ if( function_exists( 'wc_required_modules' ) ) {
 
 		$name = esc_html__( 'services_button', 'eyecare' );
 		$register_type = 'taxonomy';
+
+		$pages_array = array( 'Choose A Page' );
+		$get_pages = get_pages( 'hide_empty=0' );
+		foreach( $get_pages as $page ) {
+			$pages_array[$page->ID] = esc_attr( $page->post_title );
+		}
 
 		wc_required_modules( $register_type, $name, $args );
 
