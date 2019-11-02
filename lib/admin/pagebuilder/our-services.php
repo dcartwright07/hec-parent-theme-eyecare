@@ -202,7 +202,7 @@
 				}
 
 				$output .= '<div class="service-info">';
-				if( the_field( 'services_button' ) == "yes" ) {
+				if( get_field( 'services_button' ) == "yes" ) {
 					$output .= '<h4><a href="' . esc_url( the_field( 'service_link' ) ) . '" title="' . esc_html( the_title() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
 					$output .= '<p>' . esc_html( the_content() ) . '</p>';
 					$output .= '<div class="content-button">';
