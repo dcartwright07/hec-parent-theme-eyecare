@@ -191,22 +191,22 @@
 				}
 
 
-				$output .= '<div class="'.esc_attr($classes).esc_attr($end_class).'">';
+				$output .= '<div class="' . esc_attr( $classes ).esc_attr( $end_class ) . '">';
 				$output .= '<div class="serivce-block">';
 
-				if(has_post_thumbnail()) {
-				$output .= '<div class="service-thumb">';
-				$output .= '<a href="'.esc_url(get_the_permalink()).'">';
-				$output .= get_the_post_thumbnail($services_query->ID, 'wc-service-small-thumb');
-				$output .= '</a></div>';
+				if( has_post_thumbnail() ) {
+					$output .= '<div class="service-thumb">';
+					$output .= '<a href="' . esc_url( get_the_permalink() ) . '">';
+					$output .= get_the_post_thumbnail( $services_query->ID, 'wc-service-small-thumb' );
+					$output .= '</a></div>';
 				}
 
 				$output .= '<div class="service-info">';
-				if( get_field( 'services_button' ) == "yes" ) {
-					$output .= '<h4><a href="' . esc_url( the_field( 'service_link' ) ) . '" title="' . esc_html( the_title() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
-					$output .= '<p>' . esc_html( the_content() ) . '</p>';
+				if( get_field( 'services_button' ) == 'yes' ) {
+					$output .= '<h4><a href="' . esc_url( the_field( 'service_link' ) ) . '" title="' . esc_html( get_the_title() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
+					$output .= '<p>' . esc_html( get_the_content() ) . '</p>';
 					$output .= '<div class="content-button">';
-					$output .= '<a href="' . esc_url( the_field( 'service_link' ) ) . '" target="_self" title="' . esc_html( the_title() ) . '">Read more</a>';
+					$output .= '<a href="' . esc_url( the_field( 'service_link' ) ) . '" target="_self" title="' . esc_html( get_the_title() ) . '">Read more</a>';
 					$output .= '</div>';
 				} else {
 					$output .= '<h4>'.esc_html( get_the_title() ).'</h4>';
