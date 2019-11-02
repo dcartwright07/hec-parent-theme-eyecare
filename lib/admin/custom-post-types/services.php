@@ -95,7 +95,15 @@ if(function_exists('wc_required_modules')) {
 if( function_exists( 'wc_required_modules' ) ) {
 	function wc_services_button_taxanomy() {
 
-		$args = wp_list_pages();
+		$args = array(
+			'post_type'			    => array( esc_html__( 'service', "eyecare" ) ),
+			'hierarchical'      => true,
+			'labels'            => wp_list_pages(),
+			'show_ui'           => true,
+			'show_admin_column' => true,
+			'query_var'         => true,
+			'rewrite'           => array( 'slug' => esc_html__( "services_button", "eyecare" ) ),
+		);
 
 		$name = esc_html__( 'services_button', 'eyecare' );
 		$register_type = 'taxonomy';
