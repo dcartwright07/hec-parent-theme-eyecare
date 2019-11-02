@@ -205,7 +205,7 @@
 				$output .= '<h4><a href="'.esc_url(get_the_permalink()).'">'.esc_html(get_the_title()).'</a></h4>';
 				if($wc_ourservices_show_excerpt == 'yes') {
 				$output .= '<p>'.esc_html(wc_custom_excerpt_length('140')).'</p>';
-				$output .= '<a href="'.esc_url(get_the_permalink()).'" class="service-read">'.esc_html__('Read More', 'eyecare').'&raquo;</a>';
+				$output .= '<a href="'.esc_url(get_the_permalink()).'" class="service-read">'.esc_html__('Read More', 'eyecare').'&raquo; Test</a>';
 				}
 				$output .= '</div>';
 
