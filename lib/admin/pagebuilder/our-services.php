@@ -209,7 +209,8 @@
 					$output .= '<a href="' . esc_url( the_field( 'service_link' ) ) . '" target="_self" title="' . esc_html( get_the_title() ) . '">Read more</a>';
 					$output .= '</div>';
 				} else {
-					$output .= '<h4>'.esc_html( get_the_title() ).'</h4>';
+					$output .= '<h4>' . esc_html( get_the_title() ) . '</h4>';
+					$output .= '<p>' . esc_html( get_the_content() ) . '</p>';
 				}
 				$output .= '</div>';
 
