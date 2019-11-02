@@ -35,10 +35,7 @@ if(function_exists('wc_required_modules')) {
 			'has_archive'        => true,
 			'menu_icon'			     => 'dashicons-clipboard',
 			'menu_position'      => 30,
-			'taxonomies'		     => array(
-				esc_html__( 'services_group', 'eyecare' ),
-				esc_html__( 'services_button', 'eyecare' )
-			),
+			'taxonomies'		     => array( esc_html__( 'services_group', 'eyecare' ) ),
 			'supports'           => array( 'title', 'editor', 'thumbnail' )
 		);
 
@@ -89,41 +86,4 @@ if(function_exists('wc_required_modules')) {
 
 	//Hook taxanomy into system
 	add_action( 'init', 'wc_services_group_taxanomy', 0 );
-}
-
-// Create Taxanomy For Services Button
-if( function_exists( 'wc_required_modules' ) ) {
-	function wc_services_button_taxanomy() {
-
-		$labels = array(
-			'name'              => esc_html__( 'Services Button', 'eyecare' ),
-			'singular_name'     => esc_html__( 'Services Button', 'eyecare' ),
-			'menu_name'         => esc_html__( 'Services Button', 'eyecare' ),
-		);
-
-		$args = array(
-			'post_type'			    => array( esc_html__( 'service', "eyecare" ) ),
-			'hierarchical'      => true,
-			'labels'            => $labels,
-			'show_ui'           => true,
-			'show_admin_column' => true,
-			'query_var'         => true,
-			'rewrite'           => array( 'slug' => esc_html__( "services_button", "eyecare" ) ),
-		);
-
-		$name = esc_html__( 'services_button', 'eyecare' );
-		$register_type = 'taxonomy';
-
-		$pages_array = array( 'Choose A Page' );
-		$get_pages = get_pages( 'hide_empty=0' );
-		foreach( $get_pages as $page ) {
-			$pages_array[$page->ID] = esc_attr( $page->post_title );
-		}
-
-		wc_required_modules( $register_type, $name, $args );
-
-	}
-
-	//Hook taxanomy into system
-	add_action( 'init', 'wc_services_button_taxanomy', 0 );
 }
