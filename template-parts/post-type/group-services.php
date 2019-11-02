@@ -21,7 +21,7 @@
                 <h4><a href="<?php echo esc_url(get_the_permalink()); ?>"><?php the_title(); ?></a></h4>
                 <p>
 				<?php echo wc_custom_excerpt_length(150); ?>
-                <a href="<?php echo esc_url(get_the_permalink()); ?>"><?php esc_html_e("Read More", "eyecare"); ?> &raquo; Yo</a>
+                <a href="<?php echo esc_url(get_the_permalink()); ?>"><?php esc_html_e("Read More", "eyecare"); ?> &raquo;</a>
                 </p>
             </div><!-- Service Info /-->
         </div><!-- Service /-->
