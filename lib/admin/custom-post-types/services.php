@@ -92,7 +92,7 @@ if(function_exists('wc_required_modules')) {
 }
 
 // Create Taxanomy For Services Button
-if(function_exists('wc_required_modules')) {
+if( function_exists( 'wc_required_modules' ) ) {
 	function wc_services_button_taxanomy() {
 
 		$args = wp_list_pages();
@@ -103,4 +103,7 @@ if(function_exists('wc_required_modules')) {
 		wc_required_modules( $register_type, $name, $args );
 
 	}
+
+	//Hook taxanomy into system
+	add_action( 'init', 'wc_services_button_taxanomy', 0 );
 }
