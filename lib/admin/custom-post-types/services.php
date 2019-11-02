@@ -98,7 +98,7 @@ if( function_exists( 'wc_required_modules' ) ) {
 		$args = array(
 			'post_type'			    => array( esc_html__( 'service', "eyecare" ) ),
 			'hierarchical'      => true,
-			'labels'            => wp_list_pages(),
+			// 'labels'            => get_pages(),
 			'show_ui'           => true,
 			'show_admin_column' => true,
 			'query_var'         => true,
