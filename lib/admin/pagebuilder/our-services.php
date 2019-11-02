@@ -202,10 +202,14 @@
 				}
 
 				$output .= '<div class="service-info">';
-				$output .= '<h4><a href="'.esc_url(get_the_permalink()).'">'.esc_html(get_the_title()).'</a></h4>';
-				if($wc_ourservices_show_excerpt == 'yes') {
-				$output .= '<p>'.esc_html(wc_custom_excerpt_length('140')).'</p>';
-				$output .= '<a href="'.esc_url(get_the_permalink()).'" class="service-read">'.esc_html__('Read More', 'eyecare').'&raquo; Test</a>';
+				if( the_field( 'services_button' ) == "yes" ) {
+					$output .= '<h4><a href="' . esc_url( the_field( 'service_link' ) ) . '" title="' . esc_html( the_title() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
+					$output .= '<p>' . esc_html( the_content() ) . '</p>';
+					$output .= '<div class="content-button">';
+					$output .= '<a href="' . esc_url( the_field( 'service_link' ) ) . '" target="_self" title="' . esc_html( the_title() ) . '">Read more</a>';
+					$output .= '</div>';
+				} else {
+					$output .= '<h4>'.esc_html( get_the_title() ).'</h4>';
 				}
 				$output .= '</div>';
 
