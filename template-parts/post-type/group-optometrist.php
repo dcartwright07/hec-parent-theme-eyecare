@@ -30,7 +30,7 @@
 		$wc_doctor_slogan 		= get_post_meta($post->ID, 'wc_doctor_slogan', true);
 	?>
 
-    <div class="doctor-column large-4 medium-6 small-12 columns">
+    <div class="doctor-column medium-6 small-12 columns">
         <div class="doctor">
             <div class="doctor-thumb <?php echo esc_attr($float_class); ?>">
                 <?php if ( has_post_thumbnail() ) { ?>
