@@ -124,7 +124,7 @@
 		if($wc_ourdoctors_display_type == 'show_grid') {
 			$parent_class		= 'grid-doctors our-staff-page row';
 			if($wc_ourstaff_special_appearance == "yes") :
-				$classes = 'doctor-column large-4 medium-6 small-12 columns special-doctor';
+				$classes = 'doctor-column large-4 columns special-doctor';
 			else:
 				$classes = 'doctor-column medium-6 small-12 columns';
 			endif;
