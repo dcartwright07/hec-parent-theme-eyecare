@@ -127,7 +127,7 @@
 
 			$display_tax = array(
 				// 'taxonomy'	=> esc_html__( 'services_group', 'eyecare' ),
-				'taxonomy'	=> 'services_group',
+				'taxonomy'	=> esc_attr( 'services_group' ),
 				'field'		=> 'slug',
 				'terms'		=> esc_attr( $wc_ourservices_display_group )
 			);
