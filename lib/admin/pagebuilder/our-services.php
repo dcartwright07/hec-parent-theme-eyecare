@@ -126,8 +126,7 @@
 		if( esc_attr( $wc_ourservices_display_group ) != 'default' ) {
 
 			$display_tax = array(
-				// 'taxonomy'	=> esc_html__( 'services_group', 'eyecare' ),
-				'taxonomy'	=> esc_attr( 'services_group' ),
+				'taxonomy'	=> esc_html__( 'services_group', 'eyecare' ),
 				'field'		=> 'slug',
 				'terms'		=> esc_attr( $wc_ourservices_display_group )
 			);
@@ -205,13 +204,13 @@
 				$output .= '<div class="service-info">';
 				if( get_field( 'services_button' ) == 'yes' ) {
 					$output .= '<h4><a href="' . esc_url( get_field( 'services_link' ) ) . '" title="' . esc_html( get_the_title() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
-					$output .= '<p>' . esc_html( get_the_content() ) . '</p>';
+					$output .= the_content();
 					$output .= '<div class="content-button">';
 					$output .= '<a href="' . esc_url( get_field( 'services_link' ) ) . '" target="_self" title="' . esc_html( get_the_title() ) . '">Read more</a>';
 					$output .= '</div>';
 				} else {
 					$output .= '<h4>' . esc_html( get_the_title() ) . '</h4>';
-					$output .= '<p>' . esc_html( get_the_content() ) . '</p>';
+					$output .= the_content();
 				}
 				$output .= '</div>';
 
