@@ -1,13 +1,14 @@
 <?php
 	  //Blog Page Section
-	  $wp_customize->add_section('wc_footer_cta', 
+	  $wp_customize->add_section('wc_footer_cta',
 		 array(
 			'title' 		=> esc_html__( 'Call To Action', 'eyecare' ),
+			'subtitle' 		=> esc_html__( 'Call To Action Sub', 'eyecare' ),
 			'priority' 		=> 20,
 			'capability' 	=> 'edit_theme_options',
 			'description' 	=> esc_html__('Manage Call to Action', 'eyecare'),
 		 	'panel' 		=> 'wc_footer_panel',
-		 ) 
+		 )
 	  );
 
 	//Disable Call To Action Box
@@ -25,7 +26,7 @@
 			'type' 		=> 'checkbox',
 		)
 	);
-	
+
 	//Extra line
 	$wp_customize->add_control(
 		new wc_eyecare_Customize_Misc_Control(
@@ -37,15 +38,15 @@
 			)
 		)
 	);
-	
+
 	//Backgroun color
 	$wp_customize->add_setting('wc_footer_cta_bgcolor',
 		array(
 			'default' 			=> '',
 			'capability' 		=> 'edit_theme_options',
 			'sanitize_callback' => 'maybe_hash_hex_color'
-		) 
-	);      
+		)
+	);
 
 	$wp_customize->add_control( new WP_Customize_Color_Control(
 		$wp_customize,
@@ -54,18 +55,18 @@
 				'label' 	=> esc_html__( 'Background Color', 'eyecare'),
 				'section' 	=> 'wc_footer_cta',
 				'settings' 	=> 'wc_footer_cta_bgcolor',
-			) 
+			)
 		)
 	);
-	
+
 	//Text button color
 	$wp_customize->add_setting('wc_footer_cta_txtcolor',
 		array(
 			'default' 			=> '',
 			'capability' 		=> 'edit_theme_options',
 			'sanitize_callback' => 'maybe_hash_hex_color'
-		) 
-	);      
+		)
+	);
 
 	$wp_customize->add_control( new WP_Customize_Color_Control(
 		$wp_customize,
@@ -74,18 +75,18 @@
 				'label' 	=> esc_html__( 'Text/Button Color', 'eyecare'),
 				'section' 	=> 'wc_footer_cta',
 				'settings' 	=> 'wc_footer_cta_txtcolor',
-			) 
+			)
 		)
 	);
-	
+
 	//text button selected color
 	$wp_customize->add_setting('wc_footer_cta_hovertxtcolor',
 		array(
 			'default' 			=> '',
 			'capability' 		=> 'edit_theme_options',
 			'sanitize_callback' => 'maybe_hash_hex_color'
-		) 
-	);      
+		)
+	);
 
 	$wp_customize->add_control( new WP_Customize_Color_Control(
 		$wp_customize,
@@ -94,10 +95,10 @@
 				'label' 	=> esc_html__( 'Text/Button Hover/Highlight Color', 'eyecare'),
 				'section' 	=> 'wc_footer_cta',
 				'settings' 	=> 'wc_footer_cta_hovertxtcolor',
-			) 
+			)
 		)
 	);
-	
+
 	//Extra line
 	$wp_customize->add_control(
 		new wc_eyecare_Customize_Misc_Control(
@@ -109,7 +110,7 @@
 			)
 		)
 	);
-	
+
 	//Title background image
    $wp_customize->add_setting(
 		'wc_cta_side_image',
@@ -118,7 +119,7 @@
 			'sanitize_callback' => 'esc_url_raw'
 		)
 	);
-	
+
 	$wp_customize->add_control(
 		new WP_Customize_Image_Control(
 		$wp_customize,
@@ -131,8 +132,8 @@
 			)
 		)
 	);
-	
-	
+
+
 	//add Phone Number
 	$wp_customize->add_setting('wc_footer_cta_lefttxt',
 		array(
@@ -149,7 +150,7 @@
 			'type' 			=> 'textarea',
 		)
 	);
-	
+
 	//Right Side
 	$wp_customize->add_setting('wc_footer_cta_btntxt',
 		array(
@@ -166,7 +167,7 @@
 			'type' 			=> 'text',
 		)
 	);
-	
+
 	//Right Side
 	$wp_customize->add_setting('wc_footer_cta_btnlink',
 		array(
