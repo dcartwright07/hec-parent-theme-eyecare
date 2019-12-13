@@ -3,7 +3,7 @@
 	  $wp_customize->add_section('wc_footer_cta',
 		 array(
 			'title' 		=> esc_html__( 'Call To Action', 'eyecare' ),
-			'subtitle' 		=> esc_html__( 'Call To Action Sub', 'eyecare' ),
+			// 'subtitle' 		=> esc_html__( 'Call To Action Sub', 'eyecare' ),
 			'priority' 		=> 20,
 			'capability' 	=> 'edit_theme_options',
 			'description' 	=> esc_html__('Manage Call to Action', 'eyecare'),
